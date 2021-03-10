@@ -15,7 +15,7 @@ module.exports = {
       passwordConfirm: { type: "equal", field: "password" },
     };
 
-    const validate = v.validate(req.body, schema);
+    const validate = v.validate(name, email, password, passwordConfirm, schema);
 
     if (validate.length) {
       return res.status(400).json({
@@ -61,7 +61,7 @@ module.exports = {
       password: "string|empty:false|min:8",
     };
 
-    const validate = v.validate(req.body, valid);
+    const validate = v.validate(email, password, valid);
 
     if (validate.length) {
       return res.status(400).json({
