@@ -5,7 +5,7 @@ const validator = require("fastest-validator");
 const v = new validator();
 
 module.exports = {
-  addUser: async (req, res) => {
+  addUser: async (req, res, next) => {
     const { name, email, password, passwordConfirm } = req.body;
 
     const schema = {
@@ -15,7 +15,7 @@ module.exports = {
       passwordConfirm: { type: "equal", field: "password" },
     };
 
-    const validate = v.validate(name, email, password, passwordConfirm, schema);
+    const validate = v.validate(req.body, schema);
 
     if (validate.length) {
       return res.status(400).json({
