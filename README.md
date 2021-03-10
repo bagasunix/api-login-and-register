@@ -10,6 +10,10 @@
 <img src="https://img.shields.io/badge/Connector-Mongoose-orange?style=flat?&amp;logo=mongoose&amp;logoColor=green" style="max-width:100%;">
 </p>
 
+## Please Install Nodemon in ur pc
+```
+npm install -g nodemon
+```
 ## Project Run
 ```
 npm start
