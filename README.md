@@ -11,14 +11,12 @@
 </p>
 
 ## Tools that must be installed
-> <a href="https://nodejs.org">NodeJS Version LTS</a>
-> <a href="https://docs.mongodb.com/manual/installation/">MongoDB (MongoDB Compass)</a>
-> <a href="https://www.postman.com/">Postman</a>
-> <a href="https://git-scm.com/">Git</a>
-Nodemon
-```
-npm install -g nodemon
-```
+* <a href="https://nodejs.org">NodeJS Version LTS</a>
+* <a href="https://docs.mongodb.com/manual/installation/">MongoDB (MongoDB Compass)</a>
+* <a href="https://www.postman.com/">Postman</a>
+* <a href="https://git-scm.com/">Git</a>
+* <a href="https://www.npmjs.com/package/nodemon">Nodemon</a>
+
 ## Project Run
 ```
 npm start
