@@ -44,7 +44,6 @@ module.exports = {
 
     res.status(200).json({
       status: "success",
-      requestedAt: req.requestTime,
       message: `Success Add User`,
       data: {
         name: data.name,
