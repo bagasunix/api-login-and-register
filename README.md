@@ -10,7 +10,12 @@
 <img src="https://img.shields.io/badge/Connector-Mongoose-orange?style=flat?&amp;logo=mongoose&amp;logoColor=green" style="max-width:100%;">
 </p>
 
-## Please Install Nodemon in ur pc
+## Tools that must be installed
+# <a href="https://nodejs.org">NodeJS Version LTS</a>
+# <a href="https://docs.mongodb.com/manual/installation/">MongoDB (MongoDB Compass)</a>
+# <a href="https://www.postman.com/">Postman</a>
+# <a href="https://git-scm.com/">Git</a>
+# Nodemon
 ```
 npm install -g nodemon
 ```
