@@ -61,7 +61,7 @@ module.exports = {
       password: "string|empty:false|min:8",
     };
 
-    const validate = v.validate(email, password, valid);
+    const validate = v.validate(req.body, valid);
 
     if (validate.length) {
       return res.status(400).json({
