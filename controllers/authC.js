@@ -1,5 +1,5 @@
 // Import Models
-const User = require("../models/Users");
+const User = require("../models/userM");
 // Lib Validator
 const validator = require("fastest-validator");
 const v = new validator();
